@@ -1,0 +1,121 @@
+h6{
+    font-size: 16px;
+    }
+    
+    
+        .wrapper {
+      height: auto;
+      width: 550px;
+      padding-left: 0px;
+        background: linear-gradient(to bottom, #ffccff 0%, #ffffff 50%);
+        margin: auto;
+      text-align: center;
+      padding-bottom: -50px;
+      z-index: 1;
+        }
+    
+      .com-panel {
+        width: 100%;
+        display:block;
+        margin-top: 50px;
+      }
+    
+    
+      .com-card {
+        display: inline-block;
+        padding: 5px; 
+        margin: auto; 
+        border: 5px; 
+        border-radius: 10px; 
+        width: 140px;
+      }
+
+      .member-card{
+          color: #ffffff;
+          padding: 10px;
+      }
+    
+      .float1 {
+        width: 500px;
+        border: 2px;
+        border-color: blue;
+        display: inline-block;
+        position: absolute;
+        top:0; 
+        left:30;
+        z-index: 1;
+        padding-top: 200px;
+        padding-left: 25px;
+        padding-right: 25px;
+        display:block;
+        margin: auto;
+      }
+        .panel{
+        width: 500px;
+        height: 120px;
+        border-radius: 15px;
+        display: inline-block;
+        position: relative;
+        z-index: 2;
+        background: #ffffff;
+        display:block;
+        margin-top: 25px;
+      }
+      
+    .row{
+        padding: 5px;
+    }
+      .col {
+        display: inline-block;
+        padding: 5px;
+      }
+      .card {
+        display: inline-block;
+        
+        margin: 5px; 
+        border-radius: 10px; 
+        background-color: #ffffff;
+        border-color: lightgrey;
+        width: 120px;
+      }
+    
+      .balance-text{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size:30px;
+    
+    
+      }
+      .round-button {
+        background: purple;
+        color: white;
+        font-size:35px;
+        font-weight: bold;
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+        text-align: center;
+        
+        } 
+    
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+      .signup {
+        height: 50px;
+        width: 80%;
+        background-color: purple;
+        color: white;
+        font-size:25px;
+        border-radius: 25px;
+        border-color: rgb(129, 58, 129);
+        border-width: 2px;
+        margin-top: 75px;
+        margin: auto;
+      } 
+    
