@@ -6,10 +6,10 @@
   <!-- Navbar -->
     <div id="nav" style="margin:auto">
       <router-link to="/AppView"><i class="material-icons nav-icons">home</i></router-link> 
-      <router-link to="/Chat"><i class="material-icons nav-icons">playlist_add_check</i></router-link> 
-      <router-link to="/GrabOrder"><i class="material-icons nav-icons">swipe</i></router-link> 
-      <router-link to="/DepositView"><i class="material-icons nav-icons">chat</i></router-link> 
-      <router-link to="/WithdrawView"><i class="material-icons nav-icons">person</i></router-link>
+      <router-link to="/OrderView"><i class="material-icons nav-icons">playlist_add_check</i></router-link> 
+      <router-link to="/MainGrabView"><i class="material-icons nav-icons">swipe</i></router-link> 
+      <router-link to="/ServiceView"><i class="material-icons nav-icons">chat</i></router-link> 
+      <router-link to="/MyAccountView"><i class="material-icons nav-icons">person</i></router-link>
       <router-link to="/"><i class="material-icons nav-icons">logout</i></router-link> 
     </div>
 
@@ -18,11 +18,7 @@
   <div style="clear: both;"></div>
 </template>
 <script>
-import SignupForm from './components/SignUp.vue'
-export default {
-  name: 'home',
 
-};
 </script>
 <style lang="scss">
 @import 'assets/eShop.css';
@@ -36,8 +32,8 @@ export default {
     margin: -8px;
   }
   #nav {
-    padding: 15px;
-    width: 520px;
+    padding: 10px;
+    width: 530px;
     position: fixed;
     bottom: 0;
     background-color: purple;
@@ -50,7 +46,7 @@ export default {
     }
   }
   .nav-icons{
-    font-size:48px;
+    font-size:36px;
     margin: 15px;
   }
 </style>

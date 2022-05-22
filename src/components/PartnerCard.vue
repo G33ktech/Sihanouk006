@@ -1,5 +1,5 @@
 <template>
-  <div  :class="{ active: isActive } " >
+  <div  :class="{} " >
   </div>
 </template>
 

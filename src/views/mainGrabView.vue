@@ -1,0 +1,11 @@
+<template> 
+<div>
+    <h1>PLACEHOLDER PAGE</h1>
+<img src="../assets/depositView.png" style="width:550px;height:850px;">
+</div>
+</template>
+<script>
+  export default {
+  
+  };
+</script>

@@ -57,6 +57,38 @@ const routes = [
     component: () => import(/* webpackChunkName: "GrabOrderView" */ '../views/grabOrderView.vue')
   },
   {
+    path: '/OrderView',
+    name: 'OrderView',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "OrderView" */ '../views/orderView.vue')
+  },
+  {
+    path: '/MyAccountView',
+    name: 'MyAccountView',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "MyAccountView" */ '../views/myAccountView.vue')
+  },
+  {
+    path: '/MainGrabView',
+    name: 'MainGrabView',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "MainGrabView" */ '../views/mainGrabView.vue')
+  },
+  {
+    path: '/ServiceView',
+    name: 'ServiceView',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "ServiceView" */ '../views/serviceView.vue')
+  },
+  {
     path: '/DepositView',
     name: 'DepositView',
     // route level code-splitting
