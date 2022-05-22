@@ -2,17 +2,18 @@
 <div>
     <div>
     <form  @submit.prevent="handleSubmit">
+    <div class="input-field" style="margin: auto">
 
         <input type="phone" v-model="phone"  placeholder="Enter Telephone"  required>
 
         <input type="email" v-model="email"  placeholder="Enter Email"  required>
 
         <input type="password" v-model="password" placeholder="Create Password" required>            
-     
+     </div>
         <input type="checkbox" v-model="terms" required>
         <label>Please accept terms and conditions</label>
     
-            <button type="submit" >Sign up here</button>
+            <button type="submit" style="margin-top: 50px" >Sign up here</button>
     </form>
     </div>
     <p> Phone: {{ phone }} </p>
@@ -64,8 +65,7 @@ export default {
 
 form {
     max-width: 600px;
-    margin: 30px auto;
-    background: #fff;
+    margin: auto;
     text-align: left;
     border-radius: 10px;
 }
@@ -73,9 +73,9 @@ form {
 
 input, select {
     display: block;
-    margin: 20px;
+    margin-top: 25px;
     padding: 10px;
-    width: 100%;
+    width: 450px;
     height: 35px;
     border-radius: 15px;
     box-sizing: border-box;
