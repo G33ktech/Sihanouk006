@@ -13,15 +13,15 @@
 </div>
 
 <!-- member Panel -->
-<div id="memberPanel" class="g-panel" style="color: white;">
-    <div id="memberCard" class="g-com-card" style="width: 250px">
+<div id="memberPanel" class="g-panel" style="color: white; ">
+    <div id="memberCard" class="g-com-card" style="width: auto">
     <div id="memberType" class="g-com-field"  style="font-size: 30px;">Ordinary{{}}</div>
-    <div id="commissionType" class="g-label">commission 0.4% | 60 orders{{}}</div>
+    <div id="commissionType" class="g-com-field" style="font-size: 20px; width: 350px;">commission 0.4% | 60 orders{{}}</div>
+  </div><br>
+  <div id="grabStatusCard" class="g-com-card-center " style="clear:left; float: right; z-index: 2; margin:20px 150px 0px 0px;">
+    <a id="orderAmt" class="g-com-field" style="background-color: green; font-size: 40px;">04{{}} </a>
+    <a id="orderMax" class="g-com-field" style=" font-size: 40px;">/60{{}}</a>
   </div>
-  <p id="grabStatusCard" class="g-com-card-center vertical-center " style="float: right; clear: both; float: center; font-size: 40px;">
-    <a id="orderAmt" class="g-com-field" style="background-color: green;">04{{}}</a> /
-    <a id="orderMax" class="g-com-field">60{{}}</a>
-  </p>
 </div>
 
 <!-- commission Panel -->
@@ -39,11 +39,11 @@
 <!-- order Panel -->
 <div id="orderPanel" class="g-com-panel">
   <div id="orderAmtCard" class="g-com-card">
-  <div id="orderAmt" class="com-field">$ 500.00{{}}</div>
+  <div id="orderAmt" class="g-com-field">$ 500.00{{}}</div>
   <div id="orderAmtLabel" class="g-label">Order Amount</div>
   </div>
   <div id="buttonRightDiv" class="g-com-card-right">
-    <div id="orderBalanceAmt" class="g-com-field">$ $ 1076.96{{}}</div>
+    <div id="orderBalanceAmt" class="g-com-field">$ 1076.96{{}}</div>
     <div id="orderBalanceAmtLabel" class="g-label">Available Balance</div>
   </div>
 </div>

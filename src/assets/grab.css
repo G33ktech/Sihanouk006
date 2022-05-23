@@ -21,19 +21,17 @@ h1{
           height: 240px;
           border-radius: 15px;
           display: inline-block;
-          position: relative;
-          margin: auto;
+          margin: 10px;
           background: linear-gradient(to right, #758de2 0%, #1d249e 80%);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          margin-top: 10px;
+          padding: 5px;
           text-align: left;
         }   
 .g-com-panel {
         width: 500px;
         height: 100px;
         display:block;
-        margin-top: 15px;
-        margin: auto;
+        margin: 15px;
         background-color: aliceblue;
         border-style: solid;
         border-width: 2px;
@@ -69,9 +67,15 @@ h1{
         padding: 10px; 
         margin: auto; 
         width: 140px;
-
-        
       }
+.g-com-field{
+        font-size: 30px;
+
+      }
+.g-label {
+  margin-top: 10px;
+  color: grey;
+}
 
 .g-member-card{
           color: #ffffff;
