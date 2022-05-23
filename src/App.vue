@@ -36,6 +36,7 @@
     width: 530px;
     position: fixed;
     bottom: 0;
+    z-index: 3;
     background-color: purple;
     a {
       font-weight: bold;
