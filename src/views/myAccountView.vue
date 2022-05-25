@@ -1,12 +1,14 @@
 <template> 
-<div>
-    <h1>myAccountView Placeholder</h1>
-<img src="../assets/myAccountView.png" style="width:550px;height:1020px;">
-</div>
+
+
+<AccountList/>
 <div style="height: 150px;"></div>
 </template>
 <script>
+import AccountList from '@/components/AccountList.vue';
+import AccountCard from '@/components/AccountCard.vue';
   export default {
-  
-  };
+    name: 'home',
+    components: { AccountList, },
+};
 </script>

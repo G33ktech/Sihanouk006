@@ -4,17 +4,32 @@ Withdraw
 Team reports
 <span class="material-icons">library_add</span>
 Recharge record
-Withdraw record
 <span class="material-icons">payments</span>
-Account details
+Withdraw record
 <span class="material-icons">repeat</span>
-Notification
+Account details
 <span class="material-icons">notifications</span>
+Notification
+<span class="material-icons">credit_card</span>
 Shipping address
 <span class="material-icons">credit_card</span>
 Bind Bank Card
-<span class="material-icons">credit_card</span>
-Change Password
 <span class="material-icons">lock_open</span>
+Change Password
+<span class="material-icons">language</span>
 Language
-<span class="material-icons">power_settings_new</span> Logout
+<span class="material-icons">power_settings_new</span> 
+Logout
+
+
+
+<a href="/index/ctrl/deposit" class="account-panel">
+<span class="material-icons">call_made{{account.icon}}</span>
+<div class="col align-self-center pl-0">
+<h6 class="mb-1">Withdraw
+<i class="material-icons float-right">
+chevron_right</i>
+</h6>
+
+</div>
+</a>
