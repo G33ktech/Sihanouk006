@@ -1,14 +1,12 @@
 <template>
-<router-link to="this.account.to">
+<router-link :to="account.to">
   <div class="g-com-panel" style="height: 50px">
     <a class="" style="float: left; margin: 10px;">
       <i class="material-icons" style="font-size: 36px;" >{{account.icon}}</i>
     </a>
      <a class="mb-1" style="margin: 20px">{{account.name}}
     </a>
-    <a class="mb-1" style="margin: 20px">{{account.to}}
-    </a>
-    
+ 
       <i class="material-icons" style=" float:right;" >chevron_right</i>
     
   </div>
