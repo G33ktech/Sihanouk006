@@ -1,8 +1,8 @@
 <template>
-  <div class="events container">
-    <h2 class="subtitle is-3">Membership Level</h2>
-    <div class="columns is-multiline">
-      <div
+  <div class="event-container">
+    <h6 class="">Membership Level</h6>
+    <div class="factory">
+      <div class=""
         v-for="event in events"
         :event="event"
         :key="event.id"
@@ -87,8 +87,9 @@
     border-radius: 15px;
 }
 
-  .events {
+  .event-container {
     margin-top: 100px;
+    padding: 10px;
     text-align: center;
   }
 </style>

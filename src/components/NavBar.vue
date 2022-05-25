@@ -6,8 +6,7 @@
       <router-link to="/Chat"><i class="material-icons">playlist_add_check</i></router-link> 
       <router-link to="/GrabOrder"><i class="material-icons">swipe</i></router-link> 
       <router-link to="/DepositView"><i class="material-icons">chat</i></router-link> 
-      <router-link to="/WithdrawView">Withdraw</router-link>
-      <router-link to="/"><i class="material-icons">logout</i></router-link> 
+      <router-link to="/WithdrawView"><i class="material-icons">Withdraw</router-link>
     </div>
     <router-view />
 

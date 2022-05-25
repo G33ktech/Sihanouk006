@@ -10,7 +10,6 @@
       <router-link to="/MainGrabView"><i class="material-icons nav-icons">swipe</i></router-link> 
       <router-link to="/ServiceView"><i class="material-icons nav-icons">chat</i></router-link> 
       <router-link to="/MyAccountView"><i class="material-icons nav-icons">person</i></router-link>
-      <router-link to="/"><i class="material-icons nav-icons">logout</i></router-link> 
     </div>
 
     <router-view />
@@ -48,6 +47,6 @@
   }
   .nav-icons{
     font-size:36px;
-    margin: 15px;
+    margin: 10px;
   }
 </style>

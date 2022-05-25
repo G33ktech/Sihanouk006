@@ -1,14 +1,18 @@
 <template>
   <div class="member">
     <div   :class="{}">
-        <a class="" style="float: left; margin: 10px;">
+<button class="square-button " style="" onclick="window.location.href=`https://direct.lc.chat/14101083/`">
+        <i class="">join</i>
+      </button>
+    
+        <a class="button-panel" style="float: left; ">
           <img src="../assets/buttons/graphics-carousel-scheme1.png" alt="" class="mw-100">
         </a>
         <h2 class="is-size-4 has-text-weight-bold">{{ event.memberType }}</h2>
         <span>{{ event.balance }}</span><br>
         <span>{{ event.commission }}</span><br>
-
-    </div>
+     </div>       
+        
   </div>
 </template>
 <script>
@@ -27,8 +31,16 @@
     text-align: left;
     color: #ffffff;
     padding: 10px;
+  
     border-radius: 10px;
-    margin: 10px;
+    margin: 20px;
     height: 120px;
+  }
+  .square-button{
+  float: right; 
+  color: white; 
+  width: 75px; 
+  margin-right: 20px; 
+  font-size: 20px;
   }
 </style>
