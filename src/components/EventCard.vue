@@ -1,10 +1,11 @@
 <template>
   <div class="member">
     <div   :class="{}">
-<button class="square-button " style="" onclick="window.location.href=`https://direct.lc.chat/14101083/`">
+    <router-link to="/Chat">
+<button class="square-button " style="" >
         <i class="">join</i>
       </button>
-    
+    </router-link> 
         <a class="button-panel" style="float: left; ">
           <img src="../assets/buttons/graphics-carousel-scheme1.png" alt="" class="mw-100">
         </a>

@@ -1,6 +1,6 @@
 <template>
 <router-link :to="account.to">
-  <div class="g-com-panel" style="height: 50px">
+  <div class="accountCard" style="height: 50px">
     <a class="" style="float: left; margin: 10px;">
       <i class="material-icons" style="font-size: 36px;" >{{account.icon}}</i>
     </a>

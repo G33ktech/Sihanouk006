@@ -7,12 +7,12 @@
 
       <div class="col"  style="width: 30%;">
         <div class="com-card">
-          <a href="https://direct.lc.chat/14101083/"> 
+        <router-link to="depositView">
         <button class="round-button" >
           <i class="material-icons text-template">monetization_on</i>
         </button>
         <p class="small mt-2">Deposit</p>
-        </a>
+        </router-link>
         </div>
         </div>
   <div class="col text-center"  style="width: 30%;">

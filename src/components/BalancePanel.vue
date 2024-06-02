@@ -15,4 +15,8 @@
 
 </template>
 
-
+<script>
+  export default {
+    props: ['BalancePanel'],
+  };
+</script>

@@ -9,6 +9,7 @@ const routes = [
   },
   {
     path: '/AppView',
+    name: 'AppView',
     component: () => import(/* webpackChunkName: "AppView" */ '../views/AppView.vue')
   },
   {

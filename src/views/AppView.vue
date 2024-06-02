@@ -40,6 +40,9 @@ font-size:20px; color: gray;">my Balance</p>
 <!-- 6 button panel 1st row-->
 <SixButton/>
 
+<!-- 3 buttonPanel -->
+<ThreeButton />
+
 <!-- Membership Display -->
 <div class="com-panel">
     <div class="members">

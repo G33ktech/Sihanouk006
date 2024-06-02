@@ -21,6 +21,42 @@ Language
 <span class="material-icons">power_settings_new</span> 
 Logout
 
+Withdraw
+<router-link to="/WithdrawView"><i class="material-icons">Withdraw</router-link>
+
+
+<span class="material-icons">groups</span>
+Team reports
+
+<span class="material-icons">library_add</span>
+Recharge record
+
+<span class="material-icons">payments</span>
+Withdraw record
+
+<span class="material-icons">repeat</span>
+Account details
+
+<span class="material-icons">notifications</span>
+Notification
+
+<span class="material-icons">credit_card</span>
+Shipping address
+
+<span class="material-icons">credit_card</span>
+Bind Bank Card
+
+<span class="material-icons">lock_open</span>
+Change Password
+
+<span class="material-icons">language</span>
+Language
+
+<span class="material-icons">power_settings_new</span> 
+Logout
+
+
+
 
 
 <a href="/index/ctrl/deposit" class="account-panel">
@@ -33,3 +69,50 @@ chevron_right</i>
 
 </div>
 </a>
+
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    cursor: url("img/touch.png"), move;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+    color: #333;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
